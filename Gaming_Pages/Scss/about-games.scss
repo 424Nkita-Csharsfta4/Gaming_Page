@@ -1,0 +1,74 @@
+.about-games{
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    .fly-block-games{
+        padding-left: 10em;
+    }
+    .girl{
+        position: relative;
+        top: -470px; left: -20px;
+    }
+    .about-block-game{
+        align-items: center;
+        padding-left: 12em;
+    }
+    .block-p{
+        font-family: 'Josefin Sans',sans-serif;
+font-size: 20px;
+line-height: 24px;
+color: #2E299A;
+padding-top: 3em;
+    }
+    .block-h1{
+        padding-top: 2em;
+        font-size: 50px;
+line-height: 54px;
+color: #171147;
+width: 569px;
+height: 108px;
+font-weight: 700;
+    }
+    span{
+        color: #B53071;
+        border-bottom: #2E299A;
+    }
+    .block-p2{
+        font-size: 18px;
+line-height: 24px;
+width: 518px;
+height: 96px;
+color: #332B5C;
+padding-top: 2em;
+    }
+    .btn{
+       margin-top: 3em;
+       width: 242px;
+height: 50px;
+border: none;
+color: #fff;
+border-radius: 25px;
+background: #B53071;
+    }
+    .btn:hover{
+        transition: 0.6s ease-in-out;
+        background-color: #ff98cb;
+        color: rgb(0, 0, 0);
+        border-radius: 15px;
+    }
+    
+}
+.girl,.fly-ps,.medal{
+    animation: ps 0.7s infinite alternate both;
+    border-radius: 20px;
+}
+@keyframes ps{
+0%  { bottom: 0; }
+100%{ bottom: 50; box-shadow: 0 50px 50px rgba(247, 35, 166, 0.907);}
+}
+@keyframes ps{
+0%{bottom: 0; }
+50%{bottom: 30; box-shadow: 0 0 5px rgba(210, 255, 7, 0.896); transition: 0.5s ease-in-out;}
+100%{top: 30; box-shadow: 0 0 5px rgba(6, 113, 243, 0.9);transition: 0.5s ease-in-out;}
+}

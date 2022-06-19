@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\spaceX"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Gaming_Pages"
+	}
+}

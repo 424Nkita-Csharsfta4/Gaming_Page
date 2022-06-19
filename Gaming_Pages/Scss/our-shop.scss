@@ -1,0 +1,67 @@
+.our-shop {
+    margin-top: 8em;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+    .our-left{
+        padding-left: 2em; 
+    }
+    .left-p {
+        color: #2E299A;
+        font-size: 20px;
+        line-height: 24px;
+        padding-bottom: 1em;
+    }
+    .left-h1 {
+        font-size: 50px;
+        line-height: 54px;
+        color: #390075;
+    }
+    span{
+        color: #B53071;
+        border: none;
+    }
+    .left {
+        font-size: 18px;
+        line-height: 34px;
+        width: 464px;
+        height: 96px;
+        padding-top: 2em;
+        align-items: center;
+    }
+    .card-info-left {
+        padding-top: 5em;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .card {
+        width: 200px;
+        height: 200px;
+    }
+    .card-h1 {
+        font-size: 28px;
+        line-height: 38px;
+        color: #2E2594;
+        width: 270px;
+        height: 76px;
+        padding-top: 1em;
+    }
+    .card-p {
+        padding-top: 1em;
+    }
+    .btn {
+        margin-top: 2em;
+        color: #fff;
+        background: #B53071;
+        border-radius: 25px;
+        width: 200px;
+height: 50px; border: none;
+    }
+    .btn:hover{
+        transition: 0.6s ease-in-out;
+        background-color: #ff98cb;
+        color: rgb(0, 0, 0);
+        border-radius: 15px;
+    }

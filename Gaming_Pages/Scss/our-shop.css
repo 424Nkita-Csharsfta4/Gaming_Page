@@ -1,0 +1,91 @@
+.our-shop {
+  margin-top: 8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 200px;
+}
+
+.our-left {
+  padding-left: 2em;
+}
+
+.left-p {
+  color: #2E299A;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 1em;
+}
+
+.left-h1 {
+  font-size: 50px;
+  line-height: 54px;
+  color: #390075;
+}
+
+span {
+  color: #B53071;
+  border: none;
+}
+
+.left {
+  font-size: 18px;
+  line-height: 34px;
+  width: 464px;
+  height: 96px;
+  padding-top: 2em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-info-left {
+  padding-top: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+}
+
+.card-h1 {
+  font-size: 28px;
+  line-height: 38px;
+  color: #2E2594;
+  width: 270px;
+  height: 76px;
+  padding-top: 1em;
+}
+
+.card-p {
+  padding-top: 1em;
+}
+
+.btn {
+  margin-top: 2em;
+  color: #fff;
+  background: #B53071;
+  border-radius: 25px;
+  width: 200px;
+  height: 50px;
+  border: none;
+}
+
+.btn:hover {
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+  background-color: #ff98cb;
+  color: black;
+  border-radius: 15px;
+}
+/*# sourceMappingURL=our-shop.css.map */

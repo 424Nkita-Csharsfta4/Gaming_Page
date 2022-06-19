@@ -1,0 +1,41 @@
+@import url('reset.css');
+.header{
+    max-width: 1920px;
+    margin: 0 auto;
+    .nav-header,.ul-header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+        padding-top: 2em;
+        .li-header a{
+            text-decoration: none;
+            color: #2E2594;
+            font-size: 18px;
+            line-height: 24px;
+        }
+        .li-header.btn  {
+            font-size: 18px;
+            color: #fff;
+            background: #B53071;
+            border-radius: 25px;
+            width: 170px;
+            height: 35px;
+            text-align: center;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+        .li-header.btn:hover{
+            background-color: #fff;
+            color: #B53071;
+            transition: 0.6s ease-in-out;
+            border-bottom: 1px solid #1e1e1e;
+        }
+        .li-header a:hover{
+            color: #B53071;
+            transition: 0.6s ease-in-out;
+            border-bottom: 1px solid #1e1e1e;
+            padding-left: 10px;
+        }
+    }
+}
